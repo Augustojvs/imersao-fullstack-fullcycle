@@ -21,7 +21,7 @@ func (bank *Bank) isValid() error{
 	return nil
 }
 
-func NexBank(code string, name string) (*Bank, error){
+func NewBank(code string, name string) (*Bank, error){
 	bank := Bank{
 		Code: code,
 		Name: name,
